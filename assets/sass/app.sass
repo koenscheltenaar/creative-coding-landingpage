@@ -4,10 +4,11 @@
 body, html, main
 	position: relative
 	width: 100%
-	min-width: 1024px
-	height: auto
+	min-width: 980px
+	height: 100% !important
 	min-height: 768px
 	overflow: auto
+	background-color: $ccBlue
 
 body, html, main, p
 	font-family: $font-stack
@@ -52,29 +53,62 @@ p
 	line-height: 1.5em
 
 
+%absoluteCenter
+	margin: auto
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+
+.wrapper
+	min-height: 100%
+	height: auto !important
+	height: 100%
+	margin: 0 auto -326px /* hoogte footer */
+
+.spacer
+	display: block !important
+	height: 326px /* hoogte footer */
+
 .headerContainer
+	position: relative
 	width: 100%
 	height: auto
 	background-color: $ccBlack
-
-.header
-	width: 1024px
+	overflow: hidden
 	height: 506px
+	img
+		display: block
+		@extend %absoluteCenter
+
 
 .contentContainer
 	width: 100%
 	height: auto
-	background-color: $ccBlue
 
 .content
-	width: 1024px
+	position: relative
+	width: 980px
 	height: 100px
+	margin: 0 auto
 
 .footerContainer
 	width: 100%
 	height: auto
 	background-color: $ccBlack
+	clear: both
+	height: 326px
+
+.footer, .spacer
+	height: 226px
+	padding-top: 100px
 
 .footer
-	width: 1024px
-	height: 326px
+	position: relative
+	width: 980px
+	margin: 0 auto
+
+	img
+		margin: 0 auto
+		display: block
