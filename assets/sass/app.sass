@@ -1,0 +1,80 @@
+@import "_meyer-reset"
+@import "variables"
+
+body, html, main
+	position: relative
+	width: 100%
+	min-width: 1024px
+	height: auto
+	min-height: 768px
+	overflow: auto
+
+body, html, main, p
+	font-family: $font-stack
+	font-weight: 400
+	color: $white
+	font-size: 12pt
+
+h1, h2, h3, h4
+	font-family: $font-header-stack
+	text-transform: uppercase
+
+h1
+	font-weight: 700
+	font-size: 2.2em
+	margin: 0 0 8px 0
+
+h2
+	font-weight: 700
+	font-size: 1.3em
+	margin: 0 0 5px 0
+
+h3
+	font-weight: 600
+	font-size: 1em
+	margin: 0 0 5px 0
+
+i
+	font-style: italic
+
+b
+	font-weight: 700
+
+a
+	color: white
+	text-decoration: none
+
+	&:hover
+		text-decoration: underline
+
+p
+	padding-bottom: 1.5em
+	line-height: 1.5em
+
+
+.headerContainer
+	width: 100%
+	height: auto
+	background-color: $ccBlack
+
+.header
+	width: 1024px
+	height: 506px
+
+.contentContainer
+	width: 100%
+	height: auto
+	background-color: $ccBlue
+
+.content
+	width: 1024px
+	height: 100px
+
+.footerContainer
+	width: 100%
+	height: auto
+	background-color: $ccBlack
+
+.footer
+	width: 1024px
+	height: 326px
