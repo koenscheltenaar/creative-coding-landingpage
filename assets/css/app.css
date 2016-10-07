@@ -133,13 +133,6 @@ p {
   height: 100px;
   margin: 0 auto; }
 
-.footerContainer {
-  width: 100%;
-  height: auto;
-  background-color: #393B51;
-  clear: both;
-  height: 326px; }
-
 .footer, .spacer {
   height: 226px;
   padding-top: 100px; }
@@ -147,8 +140,16 @@ p {
 .footer {
   position: relative;
   width: 980px;
-  margin: 0 auto; }
-  .footer img {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #393B51;
+  clear: both; }
+  .footer img.footerBg {
+    position: absolute;
+    top: -40px;
+    margin: 0 auto;
+    display: block; }
+  .footer img.partners {
     margin: 0 auto;
     display: block; }
 

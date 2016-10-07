@@ -93,13 +93,6 @@ p
 	height: 100px
 	margin: 0 auto
 
-.footerContainer
-	width: 100%
-	height: auto
-	background-color: $ccBlack
-	clear: both
-	height: 326px
-
 .footer, .spacer
 	height: 226px
 	padding-top: 100px
@@ -108,7 +101,16 @@ p
 	position: relative
 	width: 980px
 	margin: 0 auto
+	width: 100%
+	background-color: $ccBlack
+	clear: both
 
-	img
+	img.footerBg
+		position: absolute
+		top: -40px
+		margin: 0 auto
+		display: block
+
+	img.partners
 		margin: 0 auto
 		display: block
