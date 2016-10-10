@@ -7,9 +7,15 @@
     </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700|Source+Sans+Pro" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/retina.min.js"></script>
-    <script>
-        retinajs();
+    <link rel="stylesheet" href="assets/font/font-awesome.min.css">
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/makeItRetina.js"></script>
+    <script type="text/javascript">
+      $(window).on('load', function(){
+        $.makeItRetina({
+          'retinaSuffix':'@2x'
+        });
+      });
     </script>
 </head>
 <body>
@@ -18,14 +24,29 @@
       </div>
       <div class="contentContainer">
         <div class="content">
+          <div class="one">
+            <h2>De <b>Creatieve Code_</b></h2>
+          </div>
+          <div class="two">
+          </div>
+          <div class="three">
+          </div>
+          <div class="four">
+          </div>
+          <div class="five">
+            <iframe src="https://player.vimeo.com/video/105911670" width="540" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/105911670">MU Play&amp;Learn</a> from <a href="https://vimeo.com/stichtingmu">stichting MU</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            <!--<i class="fa fa-play fa-4x" aria-hidden="true"></i>-->
+          </div>
         </div>
       </div>
       <div class="spacer">
       </div>
     </div>
-    <div class="footer">
-        <img src="assets/media/footer.png" class="footerBg" height="71">
+    <div class="footerContainer">
+      <div class="footer">
+        <h1>de <b>Partners_</b></h1>
         <img src="assets/media/partners.png" class="partners" height="118">
+      </div>
     </div>
-    
 </body>
