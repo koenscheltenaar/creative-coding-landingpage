@@ -32,16 +32,19 @@ h1
 h2
 	font-weight: 400
 	font-size: 1.2em
-	margin: 0 0 5px 0
+	margin: 0 0 12px 0
 
 	b
 		font-size: 1.6em
 		font-weight: 700
 
 h3
-	font-weight: 600
-	font-size: 1em
+	font-size: 1.1em
 	margin: 0 0 5px 0
+
+	b
+		font-weight: 700
+		font-size: 1.0em
 
 i
 	font-style: italic
@@ -122,6 +125,12 @@ p
 		background-image: url("assets/media/leraren.png")
 		background-position: cover
 
+		ul
+			margin-left: 20px
+			list-style-type: disc
+			line-height: normal
+			font-size: 0.9em
+
 	.three
 		width: calc(210px - 40px)
 		height: calc(176px - 40px)
@@ -130,11 +139,23 @@ p
 		background-image: url("assets/media/meldaan.png")
 		background-position: cover
 
+		a
+			color: $ccRed
+
 	.four
 		background-image: url("assets/media/goto.png")
 		background-position: cover
 		left: 0
 		top: 290px
+
+		p
+			padding-top: 65px
+			width: 220px
+
+		a
+			position: absolute
+			left: 20px
+			bottom: 20px
 
 
 	.five
@@ -160,13 +181,11 @@ p
 	background-color: $ccBlack
 	clear: both
 
-	&:after
+	.after
 		position: absolute
-		display: block
 		width: 100%
-		height: 71px
-		content: ""
-		top: -41px
+		height: 141px
+		top: -75px
 		margin: 0 auto
 		background-image: url("assets/media/footer.png")
 		background-position: center

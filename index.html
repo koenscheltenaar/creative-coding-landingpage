@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Pragati+Narrow:400,700|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="assets/font/font-awesome.min.css">
-    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="assets/js/makeItRetina.js"></script>
     <script type="text/javascript">
-      $(window).on('load', function(){
+      $(document).on('ready', function(){
         $.makeItRetina({
-          'retinaSuffix':'@2x'
+          'retinaSuffix':'@2x',
+          'consoleDebugMessages': true
         });
       });
     </script>
@@ -26,12 +27,33 @@
         <div class="content">
           <div class="one">
             <h2>De <b>Creatieve Code_</b></h2>
+            <p>
+              De Creatieve Code is een leerlijn creatief programmeren voor PO en VO. Met hun docent leren kinderen de basisbeginselen van het programmeren.
+            </p>
+            <p>
+              De leerlingen gaan met kunstenaars aan de slag. Ze ervaren zo dat code een middel is om zelf iets te creëren. Het lesmateriaal is vanaf begin 2017 beschikbaar.
+            </p>
           </div>
           <div class="two">
+            <h2>Voor <b>Leerkrachten_</b></h2>
+            <ul>
+              <li>Voorkennis is niet nodig</li>
+              <li>Lesmateriaal is deels digitaal en deels unplugged (zonder computer)</li>
+              <li>Docententrainingen voor extra codepower</li>
+            </ul>
           </div>
           <div class="three">
+            <h3><b>21 November inspiratiesessie</b></h3>
+            <p>
+            Meld je <a href="mailto:educatie@mu.nl">hier aan</a></br>
+            Meer info: <a href="mailto:educatie@mu.nl">mailto@mu.nl</a>
+            </p>
           </div>
           <div class="four">
+            <p>
+            GoTo is een tekenrobot met een app die kinderenspelenderwijs leert programmeren. Met Goto kunnen kinderen hun eigen, interactieve, kunst creëren.
+            </p>
+            <a href="#"><img src="assets/media/kickstarter.png" width="222"></a>
           </div>
           <div class="five">
             <iframe src="https://player.vimeo.com/video/105911670" width="540" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -44,6 +66,7 @@
       </div>
     </div>
     <div class="footerContainer">
+      <div class="after"></div>
       <div class="footer">
         <h1>de <b>Partners_</b></h1>
         <img src="assets/media/partners.png" class="partners" height="118">
