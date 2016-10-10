@@ -95,14 +95,6 @@ p {
   padding-bottom: 1.5em;
   line-height: 1.5em; }
 
-.headerContainer img {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
-
 .wrapper {
   min-height: 100%;
   height: auto !important;
@@ -119,9 +111,9 @@ p {
   height: auto;
   background-color: #393B51;
   overflow: hidden;
-  height: 506px; }
-  .headerContainer img {
-    display: block; }
+  height: 506px;
+  background-image: url("assets/media/banner.png");
+  background-position: center; }
 
 .contentContainer {
   width: 100%;
@@ -153,4 +145,4 @@ p {
     margin: 0 auto;
     display: block; }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=style.css.map */
