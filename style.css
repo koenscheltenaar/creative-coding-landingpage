@@ -223,7 +223,12 @@ p {
     .footerContainer .footer h1 {
       margin: 0 0 30px 182px; }
     .footerContainer .footer img.partners {
-      margin: 0 auto;
-      display: block; }
+      display: inline-block; }
+    .footerContainer .footer p {
+      display: inline-block;
+      font-size: 0.75em;
+      width: 300px;
+      margin-top: 15px;
+      float: right; }
 
 /*# sourceMappingURL=style.css.map */
